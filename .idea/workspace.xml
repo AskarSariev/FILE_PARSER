@@ -5,9 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70a5a2f9-4ead-42b0-84c1-ab16f937dbf9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/infomaximum/parsers/ParserFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/infomaximum/parsers/ParserFileFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/infomaximum/parsers/ParserFileFactoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/infomaximum/print/PrintToConsole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/infomaximum/services/CountingObjectsWithSameGroupAndType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/infomaximum/services/MaxWeight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/infomaximum/services/MinWeight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/infomaximum/services/StatisticFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/infomaximum/services/StatisticFactoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/infomaximum/services/SummingTotalWeightOfGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/test-generator.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/infomaximum/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/infomaximum/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/infomaximum/parsers/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/infomaximum/parsers/Parser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/infomaximum/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/infomaximum/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/infomaximum/parsers/Parser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/infomaximum/parsers/ParserCsvFileImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/infomaximum/parsers/ParserCsvFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/infomaximum/parsers/ParserJsonFileImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/infomaximum/parsers/ParserJsonFile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +68,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -75,13 +89,19 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Projects/file-parser/src/main/resources",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "inlay.hints"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.infomaximum.Main" />
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\file-parser\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Runner">
+    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.infomaximum.Runner" />
       <module name="file-parser.main" />
       <extension name="coverage">
         <pattern>
@@ -117,7 +137,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.file-parser [jar]" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Runner" />
       </list>
     </recent_temporary>
   </component>
@@ -129,7 +149,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680277307808</updated>
-      <workItem from="1680277334421" duration="84479000" />
+      <workItem from="1680277334421" duration="108250000" />
     </task>
     <servers />
   </component>
