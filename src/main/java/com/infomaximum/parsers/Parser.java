@@ -12,22 +12,29 @@ public interface Parser {
 
     List<ParseObject> parse(String path) throws IOException, CsvValidationException;
 
-    default void printObjectsWithTheSameGroupAndTypeFields(List<ParseObject> parseObjects) {
-        Map<String, Map<String, Long>> map =
+    default void printSameGroupAndTypeFieldsWithCounting(List<ParseObject> parseObjects) {
+
                 parseObjects
                         .stream()
                         .collect(
                                 Collectors.groupingBy(ParseObject::getGroup,
                                         Collectors.groupingBy(ParseObject::getType,
-                                                Collectors.counting()))
-                        );
+                                                Collectors.counting()
+                                        )
+                                )
+                        )
+                        .forEach((k, v) -> System.out.println("GROUP - " + k + " | TYPE=COUNT : " + v));
+    }
 
+    default void printGroupWithTotalWeight(List<ParseObject> parseObjects) {
 
-
-        for (Map.Entry<String, Map<String, Long>> pair : map.entrySet()) {
-            Map<String, Long> mKey = pair.getValue();
-
-            System.out.println("GROUP - " + pair.getKey() + " | TYPE=COUNT : " + pair.getValue());
-        }
+                parseObjects
+                .stream()
+                .collect(
+                        Collectors.groupingBy(ParseObject::getGroup,
+                                Collectors.summingLong(ParseObject::getWeight)
+                                )
+                )
+                .forEach((k, v) -> System.out.println("GROUP - " + k + " | TOTAL WEIGHT - " + v));
     }
 }

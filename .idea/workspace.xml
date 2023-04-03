@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70a5a2f9-4ead-42b0-84c1-ab16f937dbf9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/infomaximum/models/ParseObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/infomaximum/models/ParseObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/infomaximum/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/infomaximum/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/infomaximum/parsers/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/infomaximum/parsers/Parser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/infomaximum/parsers/ParserCsvFileImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/infomaximum/parsers/ParserCsvFileImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/infomaximum/parsers/ParserJsonFileImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/infomaximum/parsers/ParserJsonFileImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +128,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680277307808</updated>
-      <workItem from="1680277334421" duration="82785000" />
+      <workItem from="1680277334421" duration="83848000" />
     </task>
     <servers />
   </component>
