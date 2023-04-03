@@ -1,25 +1,18 @@
 package com.infomaximum.models;
 
-import com.opencsv.bean.CsvBindByPosition;
-
-public class SomeObject {
-
-
+public class ParseObject {
     public String group;
-
 
     public String type;
 
-
     public long number;
-
 
     public long weight;
 
-    public SomeObject() {
+    public ParseObject() {
     }
 
-    public SomeObject(String group, String type, long number, long weight) {
+    public ParseObject(String group, String type, long number, long weight) {
         this.group = group;
         this.type = type;
         this.number = number;
@@ -60,7 +53,7 @@ public class SomeObject {
 
     @Override
     public String toString() {
-        return "SomeObject{" +
+        return "ParseObject{" +
                 "group='" + group + '\'' +
                 ", type='" + type + '\'' +
                 ", number=" + number +
