@@ -21,9 +21,13 @@ public class Main {
         Parser parser = new ParserCsvFileImpl();
         List<ParseObject> parseObjects = parser.parse(csvFilePath);
 
-//        parser.printSameGroupAndTypeFieldsWithCounting(parseObjects);
+        parser.printSameGroupAndTypeFieldsWithCounting(parseObjects);
 
         parser.printGroupWithTotalWeight(parseObjects);
+
+        parser.printMaxWeight(parseObjects);
+
+        parser.printMinWeight(parseObjects);
     }
 
 
